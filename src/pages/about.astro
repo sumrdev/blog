@@ -1,48 +1,23 @@
 ---
-import { Image } from "astro:assets";
-
 import PageLayout from "@/layouts/Base";
-import aboutImg from "@/assets/about-astro.png";
 
 const meta = {
-	title: "About",
-	description: "I'm a starter theme for Astro.build",
+	title: "About ",
+	description: "About Darth Plagueis The Wise",
 };
 ---
 
 <PageLayout meta={meta}>
 	<div class="space-y-6">
-		<h1 class="title">About</h1>
+		<h1 class="title">About Darth Plagueis The Wise</h1>
 		<p>
-			Hi, I’m a starter Astro. I’m particularly great for getting you started with your own blogging
-			website.
+			This page is very important!
 		</p>
-		<div class="flex justify-center">
-			<Image
-				src={aboutImg}
-				alt="A cartoon cactus looking at the 'Astro.build' logo"
-				loading="eager"
-				fetchpriority="high"
-			/>
-		</div>
-		<p>Here are my some of my awesome built in features:</p>
 		<ul class="list-inside list-disc">
-			<li>I'm ultra fast as I'm a static site</li>
-			<li>I'm fully responsive</li>
-			<li>I come with a light and dark mode</li>
-			<li>I'm easy to customise and add additional content</li>
-			<li>I have Tailwind CSS styling</li>
-			<li>Shiki code syntax highlighting</li>
-			<li>Satori for auto generating OG images for blog posts</li>
+			Did you ever hear the tragedy of Darth Plagueis The Wise? I thought not. It’s not a story the Jedi would tell you. It’s a Sith legend. Darth Plagueis was a Dark Lord of the Sith, so powerful and so wise he could use the Force to influence the midichlorians to create life… He had such a knowledge of the dark side that he could even keep the ones he cared about from dying. The dark side of the Force is a pathway to many abilities some consider to be unnatural. He became so powerful… the only thing he was afraid of was losing his power, which eventually, of course, he did. Unfortunately, he taught his apprentice everything he knew, then his apprentice killed him in his sleep. Ironic. He could save others from death, but not himself
 		</ul>
 		<p>
-			Clone or fork my <a
-				class="cactus-link inline-block"
-				href="https://github.com/chrismwilliams/astro-cactus"
-				target="_blank"
-				rel="noopener noreferrer"
-				aria-label="github repository">repo</a
-			> if you like me!
+			ok maybe not that important haha
 		</p>
 	</div>
 </PageLayout>
